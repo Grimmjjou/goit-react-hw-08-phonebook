@@ -1,0 +1,39 @@
+.UserMenu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.userName {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: green;
+
+}
+
+.btn {
+    margin-left: 50px;
+    padding: 8px 14px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(156, 231, 156);
+    background-color: #476f5a;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    color: #476f5a;
+    background-color: rgb(79, 157, 2);
+}
+
+.btn:focus {
+    outline: 3px solid #476f5a;
+    ;
+    box-shadow: 0px 0px 0px 6px rgb(79, 157, 2);
+}
